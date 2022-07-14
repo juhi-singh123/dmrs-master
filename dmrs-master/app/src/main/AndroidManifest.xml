@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.varsity">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/projectlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/projectlogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".Video_activity"></activity>
+        <activity android:name=".Search_pages" />
+        <activity android:name=".WelcomeActivity" />
+        <activity android:name=".Progress_page" />
+        <activity android:name=".Module_pages" />
+        <activity android:name=".Module_chapter" />
+        <activity android:name=".Module_brief" />
+        <activity android:name=".otp" />
+        <activity android:name=".login" />
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

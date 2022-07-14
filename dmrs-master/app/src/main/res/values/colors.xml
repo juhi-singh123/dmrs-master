@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dot_color_slider">#742B9A</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="field">#361E1D1D</color>
+    <color name="light_font">#FBFBFB</color>
+    <color name="grey_font">#ff9e9e9e</color>
+    <color name="text_shadow">#7F000000</color>
+    <color name="text_shadow_white">#FFFFFF</color>
+    <color name="first_module_color">#FAD1D1</color>
+    <color name="second_module_color">#D1FAD3</color>
+    <color name="third_module_color">#D1E5FA</color>
+    <color name="fourth_module_color">#F7D1FA</color>
+    <color name="fifth_module_color">#FFD98C</color>
+    <color name="sixth_module_color">#FAD1D1</color>
+    <color name="seventh_module_color">#7AA39F</color>
+    <color name="eighth_module_color">#A297E1</color>
+    <color name="transparent">#00123333</color>
+
+    <color name="first_module_color_dark">#E17979</color>
+    <color name="second_module_color_dark">#A8F1AB</color>
+    <color name="third_module_color_dark">#2889EF</color>
+    <color name="fourth_module_color_dark">#DE2EEC</color>
+    <color name="fifth_module_color_dark">#F1B130</color>
+    <color name="sixth_module_color_dark">#ED4A4A</color>
+    <color name="seventh_module_color_dark">#1A7C72</color>
+    <color name="eighth_module_color_dark">#7460E4</color>
+
+
+
+
+        <color name="colorPrimary">#3F51B5</color>
+        <color name="colorPrimaryDark">#303F9F</color>
+        <color name="colorAccent">#FF4081</color>
+
+        <!-- Screens background color-->
+
+        <color name="bg_screen1">#20d2bb</color>
+        <color name="bg_screen2">#3395ff</color>
+    <color name="bg_screen3">#c873f4</color>
+    <color name="bg_screen4">#c873f4</color>
+    <color name="bg_screen5">#c873f4</color>
+
+
+        <!-- dots inactive colors -->
+        <color name="dot_dark_screen1">#14a895</color>
+        <color name="dot_dark_screen2">#2278d4</color>
+    <color name="dot_dark_screen3">#a854d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+    <color name="dot_dark_screen5">#a854d4</color>
+
+        <!-- dots active colors -->
+        <color name="dot_light_screen1">#a854d4</color>
+        <color name="dot_light_screen2">#a854d4</color>
+    <color name="dot_light_screen3">#a854d4</color>
+    <color name="dot_light_screen4">#a854d4</color>
+    <color name="dot_light_screen5">#a854d4</color>
+
+        <array name="array_dot_active">
+            <item>@color/dot_light_screen1</item>
+            <item>@color/dot_light_screen2</item>
+            <item>@color/dot_light_screen3</item>
+            <item>@color/dot_light_screen4</item>
+            <item>@color/dot_light_screen5</item>
+        </array>
+
+        <array name="array_dot_inactive">
+            <item>#DDDADA</item>
+            <item>#DDDADA</item>
+            <item>#DDDADA</item>
+            <item>#DDDADA</item>
+            <item>#DDDADA</item>
+        </array>
+
+
+</resources>
